@@ -27,6 +27,11 @@ You can write me to _**Telegram** @arpatutin_, to _**Discord** arpat70#8757_ and
 
 
 #### My code examples
+
+
+HTML example you can see on _[Pastebin](https://pastebin.com/bXYAJQgv)_
+
+
 ```python
 # Some django views code that I wrote on Innopolis University's marathone
 from newsapp.models import Article
@@ -44,31 +49,5 @@ def home(request):
 ```
 
 
-```html
-<!--Some HTML I wrote and integrated with django after first week-->
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Test Site</title>
-    <link rel='stylesheet' href={% static "bootstrap.css" %}>
-    <link rel='stylesheet' href={% static "style.css" %}>
-</head>
-<body>
-    <header>
-        <a>Test Site</a>
-        <il class='headers'>
-            <li class='headers'><a>Contacts</a></li>
-            <li class='headers'><a>About</a></li>
-        </il>
-    </header>
-    <main>
-      
-    </main>
-    <footer>
-        
-    </footer>
-    
-</body>
-</html>
-```
+
 
